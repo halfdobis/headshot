@@ -2,15 +2,17 @@ import React from "react";
 
 function Footer() {
   return (
-    <div>
-      <div>Footer</div>
+    <div className="border-t-2 py-4 flex flex-col-reverse md:flex-row items-center justify-between text-sm md:text-base">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <hr className="my-4 border-primary" />
-        <p className="text-sm text-center">
+        <p className="text-center">
           &copy; {new Date().getFullYear()}{" "}
-          <span className="text-primary font-semibold">Headshot</span>. All
-          rights reserved.
+          <span className="text-base md:text-lg font-semibold">Headshot</span>.
+          All rights reserved.
         </p>
+      </div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h3>Join the snipping community's</h3>
+        <p className="text-muted-foreground">Telegram group</p>
       </div>
     </div>
   );
