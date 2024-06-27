@@ -10,6 +10,7 @@ function Hero() {
     require("../../../public/images/img1.jpeg").default.src,
     require("../../../public/images/img2.jpeg").default.src,
     require("../../../public/images/img3.jpeg").default.src,
+    require("../../../public/images/img4.jpeg").default.src,
   ];
 
   useEffect(() => {
