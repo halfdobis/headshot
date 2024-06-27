@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Footer() {
@@ -12,7 +13,13 @@ function Footer() {
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h3>Join the snipping community's</h3>
-        <p className="text-muted-foreground">Telegram group</p>
+        <Link
+          href={"https://t.me/snipperheadshot"}
+          target="_blank"
+          className="text-muted-foreground"
+        >
+          Telegram group
+        </Link>
       </div>
     </div>
   );
