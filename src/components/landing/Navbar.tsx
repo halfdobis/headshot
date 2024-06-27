@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
           <h1>HEADSHOT</h1>
         </Link>
 
-        <div className="flex space-x-6 ">
+        <div className="hidden md:flex space-x-6 ">
           <Link href="/snippers" passHref>
             <span className="text-muted-foreground hover:text-foreground transition-all duration-500">
               Snippers
