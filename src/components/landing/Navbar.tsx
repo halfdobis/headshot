@@ -69,7 +69,7 @@ const Navbar: React.FC = () => {
             <hr className="my-2 w-full border-t border-gray-300" />
             <div className="flex">
               <Button
-                size={"lg"}
+                size={"sm"}
                 className="font-semibold"
                 onClick={handleConnectWallet}
               >
