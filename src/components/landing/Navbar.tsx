@@ -18,11 +18,10 @@ const Navbar: React.FC = () => {
         </Link>
 
         <div className="flex space-x-6 ">
-          <Link
-            href="https://t.me/urakie"
-            className="hover:text-primary transition-all duration-500"
-          >
-            Built by <span className="text-muted-foreground">uraki</span>
+          <Link href="/snippers" passHref>
+            <span className="text-muted-foreground hover:text-foreground transition-all duration-500">
+              Snippers
+            </span>
           </Link>
         </div>
 
@@ -63,8 +62,8 @@ const Navbar: React.FC = () => {
         <div className="absolute right-0 top-13 w-48 bg-secondary shadow-lg rounded-md transition-all duration-700 md:hidden">
           <div className="flex flex-col items-start space-y-2 p-4">
             <Link href="/snippers" passHref>
-              <span className="hover:text-muted-foreground transition-all duration-500">
-                Start Snipping
+              <span className="text-muted-foreground hover:text-foreground transition-all duration-500">
+                Snippers
               </span>
             </Link>
             <hr className="my-2 w-full border-t border-gray-300" />
