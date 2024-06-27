@@ -17,12 +17,12 @@ const Navbar: React.FC = () => {
           <h1>HEADSHOT</h1>
         </Link>
 
-        <div className="hidden md:flex space-x-6 ">
+        <div className="flex space-x-6 ">
           <Link
-            href="/snippers"
+            href="https://t.me/urakie"
             className="hover:text-primary transition-all duration-500"
           >
-            Snippers
+            Built by <span className="text-muted-foreground">uraki</span>
           </Link>
         </div>
 
@@ -63,15 +63,15 @@ const Navbar: React.FC = () => {
         <div className="absolute right-0 top-13 w-48 bg-secondary shadow-lg rounded-md transition-all duration-700 md:hidden">
           <div className="flex flex-col items-start space-y-2 p-4">
             <Link href="/snippers" passHref>
-              <span className="hover:text-primary transition-all duration-500">
-                Snippers
+              <span className="hover:text-muted-foreground transition-all duration-500">
+                Start Snipping
               </span>
             </Link>
             <hr className="my-2 w-full border-t border-gray-300" />
             <div className="flex">
               <Button
                 size={"lg"}
-                className="text-foreground hover:rounded-full"
+                className="font-semibold"
                 onClick={handleConnectWallet}
               >
                 connect Wallet
